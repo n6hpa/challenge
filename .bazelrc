@@ -1,0 +1,2 @@
+BAZEL_USE_CPP_ONLY_TOOLCHAIN=1
+build --action_env=BAZEL_CXXOPTS="-std=c++20"
